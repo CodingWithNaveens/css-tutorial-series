@@ -1,0 +1,48 @@
+body {
+  height: 2000px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.static {
+  background-color: red;
+}
+
+.relative {
+  background-color: blue;
+  position: relative;
+  left: 100px;
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  position: relative;
+}
+
+.absolute {
+  background-color: pink;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.fixed {
+  background-color: orange;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.sticky {
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+}
